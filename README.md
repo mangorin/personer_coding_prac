@@ -1,1 +1,1 @@
-# java_prec
+# coding_prec
