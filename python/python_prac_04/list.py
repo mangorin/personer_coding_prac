@@ -35,3 +35,20 @@ list_1.remove(0.5) # list_1에서 0.5를 삭제
 list_2.clear() # list_2를 비움
 print(list_1, list_2)
 
+#리스트 정렬 카운트
+list_3 = [10, 40, 30, 20, 10]
+
+list_3.sort() # list를 순서대로 정렬
+print(list_3)
+list_3.reverse() # list의 순서를 반대로 반전시킴
+print(list_3)
+list_3.count(10) # list안에 있는 10의 개수를 반환
+
+#2차원 리스트
+list_2d = [[3.14, 35, 701], ['파이썬', '머신러닝', '코딩']] # 2차원 리스트 선언
+
+print(list_2d)
+print(list_2d[0]) # list_2d의 첫 번째 리스트 출력
+print(list_2d[1]) # list_2d의 두 번째 리스트 출력
+print(list_2d[0][1]) # list_2d의 첫 번째 리스트에 있는 두 번째 값을 출력
+print(list_2d[1][2]) # list_2d의 두 번째 리스트에 있는 세 번째 값을 출력
